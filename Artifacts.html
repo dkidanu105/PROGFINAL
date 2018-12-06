@@ -1,140 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-		
-          <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
-          <link rel="stylesheet" href="key.css" type="text/css">
-                <meta name="viewport" content="width=device-width">               
-                <meta charset="utf-8">
-                <title>Artifacts</title>
-	</head>
-<body>
-  
-		<div id="header">
-			<h1>The Kidanu Portfolio</h1>
-		</div>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-        <div class="nav">
-		
-		        <a href="index.html">Home</a>
-                <a href="CourseWork.html">CourseWork</a>
-		        <a href="Artifacts.html">Artifacts</a>
-		        <a href="ModuleAssignments.html">Module Assignments</a>
-		        <a href="Contact.html">Contact</a>
-                <a href="AboutMe.html">About me</a>
-                <a href="SpecialPrize.html">Special Prize</a>
-				
-			
-		</div>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+body{    
+         
+         text-align: center;
+         background-image: url("data:image/jpeg;base64,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");
+         background-size: cover;
+         background-repeat: no-repeat;
+         font-family: 'Black And White Picture', sans-serif;
+         font-family: 'Bungee', cursive;
+}
 
-          <div>
-            <h2> Artifacts</h2>
-          </div>
-  <br/>
-  <br/>
-  <br/>
-                                                 
-        <div id="art1">
-    <figure>
+         
 
-      <a href="http://kidadawworkbook.dx.am/Artifact_1/Artifact01.html"   target="_blank"> <img src="art1.png" class="i1" alt= "Sample Resume" title="Sample Resume"> </a>
-      <p>
-        <figcaption>
-          Resume that uses basic HTML functions
-        </figcaption>
 
-    </figure>
-    </div>
-    
-    
-    <div id="art2">
-      <figure>
+.nav a {
+         text-align: center;
+         float: left;
+         padding: 12px 30px;
+         
+}
 
-        <a href="http://kidadawworkbook.dx.am/Artifact_2/A2.html"   target="_blank"> <img src="art2.png" class="i1" alt= "Chessboard" title="Chessboard"> </a>
-        <p>
-          <figcaption>
-            HTML + CSS functions implemented to a chessboard
-          </figcaption>
+.nav a:hover {
+          background-color: white;
+}
 
-      </figure>
-    </div>
-    
-    
-    <div id="art3">
-      <figure>
+.nav{
+         float: left;
+         background-color: #ffcce6;
+         opacity: 0.3;         
+         padding: 12px;
+         
+}  
 
-        <a href="http://kidadawworkbook.dx.am/Artifact_3/rhombus.html"   target="_blank"> <img src="art3.png" class="i1" alt= "Rhombus" title="Rhombus"> </a>
-        <p>
-          <figcaption>
-            Basic Rhombus creater
-          </figcaption>
+.content{
+         float: left;
+         opacity: 0.5;
+         background-color: #ffcce6;         
+         
+         
+}
+#module1, #module2, #module3, #module4, #module5, #module7, #module8, #module9, #module10 {
+         float: left;
+         position: relative;
+         opacity: 0.4;
+         background-color: #ffcce6;
+         margin: 3%;
+}
 
-      </figure>
-    </div>
-    
-    
-    <div id="art4">
-      <figure>
+#course{
+         opacity: 0.5;
+         background-color: #ffcce6; 
+         
+}
 
-        <a href="http://kidadawworkbook.dx.am/Artifact_4/Artifact04.html"   target="_blank"> <img src="art4.png" class="i1" alt= "Form" title="Form"> </a>
-        <p>
-          <figcaption>
-            Contact us page consisting of Javascript
-          </figcaption>
+#art1, #art2, #art3, #art4, #art5{
+         float: left;
+         margin: 2%;
+         opacity: 0.6;
+         background-color: #ffcce6;
+}
 
-      </figure>
-    </div>
-    
-    
-    
-    <div id="art5">
-      <figure>
+.title{
+         float: left;
+         
+}
 
-        <a href="http://berry.berryboy.dx.am/artifact5/artifact5.html"   target="_blank"> <img src="art5.png" class="i1" alt="Slideshow" title="Slideshow"> </a>
-        <p>
-          <figcaption>
-            A Javascript Slideshow
-          </figcaption>
+il{
+          width: 440px;
+          height: 200px;
+          margin: 1%;
+          border-radius: 2px;
+}
+.i1:hover {
+         opacity: 0.5;
+         filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
-      </figure>
-    </div>
- 
+a{
+         font: bold;
+         font-size: 20px;
+         text-align: center;
+         
+}
 
-  <br/> 
-  <br/>
-  <br/>	
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/> 
-  <br/>
-  <br/>	
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/> 
-  <br/>
-  <br/>	
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-		<div id="footer">
-			<p> Wheat © Copyright 2018</p>
-		    
-        </div>
 
-</body>
-</html>
+p{
+          
+         font-size: 18px;
+}
+
+
+h1{
+         float: left;
+}
+
+
+h2{
+         text-align: center;
+}
+
