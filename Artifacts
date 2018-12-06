@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		
+          <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+          <link rel="stylesheet" href="key.css" type="text/css">
+                <meta name="viewport" content="width=device-width">               
+                <meta charset="utf-8">
+                <title>Module Assignments</title>
+	</head>
+<body>
+  
+		<div id="header">
+			<h1>The Kidanu Portfolio</h1>
+		</div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+        <div class="nav">
+		
+		        <a href="index.html">Home</a>
+                <a href="CourseWork.html">CourseWork</a>
+		        <a href="Artifacts.html">Artifacts</a>
+		        <a href="ModuleAssignments.html">Module Assignments</a>
+		        <a href="Contact.html">Contact</a>
+                <a href="AboutMe.html">About me</a>
+                <a href="SpecialPrize.html">Special Prize</a>
+				
+			
+		</div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+          <div>
+            <h2> Artifacts</h2>
+          </div>
+  <br/>
+  <br/>
+  <br/>
+                                                 
+        <div id="art1">
+    <figure>
+
+      <a href="http://berry.berryboy.dx.am/resume.html"   target="_blank"> <img src="art1.PNG" class="i1" alt= "Sample Resume" title="Sample Resume"> </a>
+      <p>
+        <figcaption>
+          Basic HTML elements used to create a sample resume
+        </figcaption>
+
+    </figure>
+    </div>
+    
+    
+    <div id="art2">
+      <figure>
+
+        <a href="http://berry.berryboy.dx.am/chessboard/chessboard.html"   target="_blank"> <img src="art2.PNG" class="i1" alt= "Chessboard" title="Chessboard"> </a>
+        <p>
+          <figcaption>
+            HTML and CSS used to create a chessboard
+          </figcaption>
+
+      </figure>
+    </div>
+    
+    
+    <div id="art3">
+      <figure>
+
+        <a href="http://berry.berryboy.dx.am/rhombus/rhombus.html"   target="_blank"> <img src="art3.PNG" class="i1" alt= "Rhombus" title="Rhombus"> </a>
+        <p>
+          <figcaption>
+            Integrated JavaScript to make a webpage that creates a rhombus shape
+          </figcaption>
+
+      </figure>
+    </div>
+    
+    
+    <div id="art4">
+      <figure>
+
+        <a href="http://berry.berryboy.dx.am/artifact4/artifact4.html"   target="_blank"> <img src="art4.PNG" class="i1" alt= "Form" title="Form"> </a>
+        <p>
+          <figcaption>
+            A contact form created using JavaScript
+          </figcaption>
+
+      </figure>
+    </div>
+    
+    
+    
+    <div id="art5">
+      <figure>
+
+        <a href="http://berry.berryboy.dx.am/artifact5/artifact5.html"   target="_blank"> <img src="art5.PNG" class="i1" alt="Slideshow" title="Slideshow"> </a>
+        <p>
+          <figcaption>
+            A slideshow made by using JavaScript
+          </figcaption>
+
+      </figure>
+    </div>
+ 
+
+  <br/> 
+  <br/>
+  <br/>	
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/> 
+  <br/>
+  <br/>	
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/> 
+  <br/>
+  <br/>	
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+		<div id="footer">
+			<p> Wheat © Copyright 2018</p>
+		    
+        </div>
+
+</body>
+</html>
