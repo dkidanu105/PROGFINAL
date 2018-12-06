@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="key.css" type="text/css">
+  <title>About Me</title>
+</head>
+<body>
+  <div id="header">
+			<h1>The Kidanu Portfolio</h1>
+		</div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+        <div class="nav">
+		
+				<a href="">Home</a>
+                <a href="">CourseWork</a>
+				<a href="">Artifacts</a>
+				<a href="">Module Assignments</a>
+				<a href="">Contact</a>
+                <a href="">About me</a>
+                <a href="">Special Prize</a>
+				
+			
+		</div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+        <div class="title">
+          <h1> About Me </h2>
+        </div>
+  <br/>
+  <br/>
+  <br/>
+        <div class="content">
+          <p> My name is Dawit Kidanu, and I am an Eritrean-American first generation college student at Bellevue College. I'm currently studying DataBase Analytics. My goals are to obtain the academic and profesional goals to obtain a job in the Database workforce. My end goal is to gain a degree in the technology field.</p>
+        </div>
+<br/> 
+  <br/>
+  <br/>	
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+		<div id="footer">
+			<p> Wheat © Copyright 2018</p>
+		    
+        </div>
+	
 
+</body>
+</html>
