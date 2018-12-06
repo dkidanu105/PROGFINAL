@@ -38,14 +38,19 @@ body{
          
          
 }
-
+#module1, #module2, #module3, #module4, #module5, #module7, #module8, #module9, #module10 {
+         float: left;
+         position: relative;
+         opacity: 0.4;
+         background-color: #ffcce6;
+         margin: 3%;
+}
 #course{
-         
+
          opacity: 0.5;
          background-color: #ffcce6; 
          
 }
-
 .title{
          float: left;
          
@@ -73,3 +78,4 @@ h1{
 h2{
          text-align: center;
 }
+
