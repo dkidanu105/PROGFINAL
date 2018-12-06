@@ -30,7 +30,7 @@ body{
 }  
 
 .content{
-         
+         float: left;
          opacity: 0.5;
          background-color: #ffcce6;
          overflow: hidden;
