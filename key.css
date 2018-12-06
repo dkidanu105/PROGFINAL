@@ -45,12 +45,20 @@ body{
          background-color: #ffcce6;
          margin: 3%;
 }
-#course{
 
+#course{
          opacity: 0.5;
          background-color: #ffcce6; 
          
 }
+
+#art1, #art2, #art3, #art4, #art5{
+         float: left;
+         margin: 2%;
+         opacity: 0.6;
+         background-color: #ffcce6;
+}
+
 .title{
          float: left;
          
@@ -61,6 +69,7 @@ a{
          font: bold;
          font-size: 20px;
          text-align: center;
+         
 }
 
 
