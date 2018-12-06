@@ -39,6 +39,13 @@ body{
          
 }
 
+#course{
+         
+         opacity: 0.5;
+         background-color: #ffcce6; 
+         
+}
+
 .title{
          float: left;
          
